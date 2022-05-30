@@ -16,7 +16,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px 100px;
+    padding: 70px 90px;
     color: #fff;
 }
 
@@ -29,10 +29,19 @@ section{
 }
 
 .main-title{
-    font-size: 4em;
-    margin-bottom: 50px;
+    font-size: 7em;
+    margin-bottom: 25px;
+    color:#a0fffa;
+    font-family: "Bradley Hand", cursive;
+    font-style: italic;
 }
-
+.sub-titlecringe{
+  font-size: 2em;
+  margin-bottom: 35px;
+  color:#ffffff;
+  font-family: "Courier New", monospace;
+  font-style: italic;
+}
 .content{
     position: relative;
     width: 1150px;
@@ -61,11 +70,11 @@ section{
 
 .content .text-box{
     z-index: 222;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0);
     backdrop-filter: blur(20px);
     padding: 40px;
     max-width: 400px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0);
     border-radius: 10px;
 }
 
@@ -102,15 +111,19 @@ section{
 
 .content2 .text-box{
     z-index: 222;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0);
     backdrop-filter: blur(20px);
     padding: 40px;
     max-width: 400px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0);
     border-radius: 10px;
 }
 
 .content2 .text-box h3{
     font-size: 2em;
+    margin-bottom: 10px;
+}
+.content2 .text-box h4{
+    font-size: 1em;
     margin-bottom: 10px;
 }
