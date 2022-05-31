@@ -31,17 +31,30 @@ section{
 .main-title{
     font-size: 7em;
     margin-bottom: 25px;
-    color:#a0fffa;
-    font-family: "Bradley Hand", cursive;
+    color:#f5f5f5;
+    font-family: 'CR A Std', monospace;
     font-style: italic;
 }
 .sub-titlecringe{
   font-size: 2em;
-  margin-bottom: 35px;
+  margin-bottom: 0px;
   color:#ffffff;
   font-family: "Courier New", monospace;
   font-style: italic;
 }
+.sub-titlecog{
+    font-size: 5em;
+    margin-bottom: 1px;
+    color:#ffffff;
+    font-family: "Courier New", monospace;
+  }
+.sub-titlepog{
+    font-size: 5em;
+    margin-bottom: 0px;
+    color:#ffffff;
+    font-family: "Courier New", monospace;
+    font-style: italic;
+  }
 .content{
     position: relative;
     width: 1150px;
