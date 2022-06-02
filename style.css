@@ -33,14 +33,14 @@ section{
 .main-title{
     font-size: 7em;
     margin-bottom: 25px;
-    color:rgb(255, 167, 255);
+    color:rgb(167, 255, 233);
     font-family: system-ui,-apple-system, Helvetica, Arial, sans-serif;
     font-style: italic;
     text-decoration: underline;
 }
 .main-titlepv{
     font-size: 7em;
-    margin-bottom: 25px;
+    margin-bottom: 45px;
     color:rgb(255, 255, 255);
     font-family: system-ui,-apple-system, Helvetica, Arial, sans-serif;
     font-style: italic;
