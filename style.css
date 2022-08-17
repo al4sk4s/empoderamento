@@ -96,6 +96,13 @@ section{
     margin-bottom: 10px;
 }
 
+.content .text-box h4{
+    font-size: 1em;
+    margin-top: 10px;
+    position: relative;
+    left: 23%;
+}
+
 .content2{
     position: relative;
     width: 1150px;

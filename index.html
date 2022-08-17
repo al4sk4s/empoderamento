@@ -2,82 +2,23 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=devide-width, initial-scale=1.0">
         <title>Bloguínio</title>
         <link rel="shortcut icon" type="x-icon" href="https://media.discordapp.net/attachments/906423523113828382/980881783241474098/virginio.jpg">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
         <script src="https://unpkg.com/scrollreveal"></script>
-        <style>
-            .button12{
-                display: inline-flex;
-                height: 20px;
-                padding: 0;
-                background-color: #000000;
-                color: rgb(255, 255, 255);
-                border: none;
-                overflow: hidden;
-                font-family:  "Quicksand", sans-serif;
-                font-size: 16px;
-                font-weight: 200;
-                cursor: pointer;
-                transition: ease-out 0.3s;
-                border-radius: 5px;
-            }
-            .button12:hover{
-                animation-delay: 4s;
-                background: #00b5bb;
-                transition: ease-in 0.3s;
-            }
-            .button12:active{
-                background: #a1fcff;
-            }
-            .button__text,
-            .button__icon{
-                display: inline-flex;
-                align-items: center;
-                padding: 0 24px;
-                height: 100%;
-            }
-        </style>
     </head>
     <body>
-        <script>
-            function doSearch(text) {
-    if (window.find && window.getSelection) {
-        document.designMode = "on";
-        var sel = window.getSelection();
-        sel.collapse(document.body, 0);
-
-        while (window.find(text)) {
-            document.getElementById("button").blur();
-            document.execCommand("HiliteColor", false, "yellow");
-            sel.collapseToEnd();
-        }
-        document.designMode = "off";
-    } else if (document.body.createTextRange) {
-        var textRange = document.body.createTextRange();
-        while (textRange.findText(text)) {
-            textRange.execCommand("BackColor", false, "yellow");
-            textRange.collapse(false);
-        }
-    }
-}
-        </script>
+        <var id="a">oi</var>
+        <script>console.log(a)</script>
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-        <button type="button12" class="button12" onclick=" var daledale = prompt('teste'); doSearch(document.getElementById('search'))">
-            <span ="button__text">⠀Menu⠀</span>
-            <span ="button__icon>
-                <ion-icon name="menu-outline"></ion-icon>
-            </span>
-        </button>
-
         <section class="sec-01">
             <div class="container">
                 <h2 class="main-title">Bloguínio</h2>
                 <h4 class="sub-titlecringe">Site voltado as publicações<br>⠀⠀de trabalhos escolares.</h4>
                 <h5 class="sub-titlepog">----------------<br>⠀⠀</h5>
+                
                 <!--daqui pra baixo é putaria-->
                 <div class="content">
                     <div class="image">
@@ -86,6 +27,7 @@
                     <div class="text-box">
                         <h3>Lorem Ipsum</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in eros pellentesque, congue orci id, blandit velit. Morbi in luctus leo. Quisque ac felis in orci aliquam consectetur. Etiam vulputate odio ac nunc ultrices ullamcorper. Nam sollicitudin varius ipsum sit amet hendrerit. Praesent varius ante nec turpis imperdiet convallis. Fusce orci turpis, porta sed dictum a, vestibulum malesuada dolor. Phasellus lorem quam, bibendum quis dui eget, hendrerit mattis mi. Duis non orci lobortis, vestibulum nisi auctor, suscipit tortor. Suspendisse rhoncus sapien sit amet venenatis varius. Morbi lectus metus, dictum vel ante eu, imperdiet convallis urna.</p>
+                        <h4>postado dia 31/05/2022 às 18:02</h4>
                     </div>
                 </div>
             </div>
@@ -131,19 +73,27 @@
                 </div>
             </div>
         </section>
+        <script src="detect.js"> </script>
         <script>
             ScrollReveal({
-                reset: false,
+                reset: true,
                 distance: '10px',
                 duration: 2000,
                 delay: 400
             });
 
-            ScrollReveal().reveal('.main-title',  { delay: 0 });
-            ScrollReveal().reveal('.sub-titlecringe',  { delay: 0 });
+            ScrollReveal().reveal('.main-title, .butao',  { delay: 0 });
+            ScrollReveal().reveal('.sub-titlecringe, .sub-titlepog',  { delay: 0 });
             ScrollReveal().reveal('.content .image, .content .text-box',  { delay: 0 , origin: 'left' });
-            ScrollReveal().reveal('.content2 .image, .content2 .text-box',  { delay: 0 , origin: 'right' });
-        </script>
+            ScrollReveal().reveal('.content2 .image, .content2 .text-box',  { delay: 0 , origin: 'left' });
+            
+            window.onbeforeunload = function () {
+                history.scrollRestoration = 'manual'
+            }
 
+            function scrollToTop(){
+                window.scrollTo(200, 200)
+            }
+        </script>
     </body>
 </html>
