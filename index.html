@@ -13,28 +13,43 @@
         <script>console.log(a)</script>
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-        <section class="sec-01">
+        <section class="sec-01" id="topo">
             <div class="container">
-                <h2 class="main-title">Bloguínio</h2>
+                <h2 class="main-title" id="maintitle">Bloguínio</h2>
                 <h4 class="sub-titlecringe">Site voltado as publicações<br>⠀⠀de trabalhos escolares.</h4>
                 <h5 class="sub-titlepog">----------------<br>⠀⠀</h5>
+
+                <a href="#via" class="eita">1° ano Via Lactea</a>
+                <a href="#teste" class="eita">1° ano Universo</a>
+                <a href="#teste" class="eita">1° ano Via Lactea</a>
+                <a href="#teste" class="eita">1° ano Universo</a>
                 
+                <h5 class="sub-titlepog">----------------<br>⠀⠀</h5>
                 <!--daqui pra baixo é putaria-->
+
+                <div class="via-lactea" id="via">
+                    <h3>1° ano Via Lactea</h3>
+                </div>
                 <div class="content">
+                    
                     <div class="image">
                         <img src="https://media.discordapp.net/attachments/906423523113828382/980878711635185664/bouzo.PNG?width=469&height=676" alt="">
                     </div>
                     <div class="text-box">
+                        
                         <h3>Lorem Ipsum</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in eros pellentesque, congue orci id, blandit velit. Morbi in luctus leo. Quisque ac felis in orci aliquam consectetur. Etiam vulputate odio ac nunc ultrices ullamcorper. Nam sollicitudin varius ipsum sit amet hendrerit. Praesent varius ante nec turpis imperdiet convallis. Fusce orci turpis, porta sed dictum a, vestibulum malesuada dolor. Phasellus lorem quam, bibendum quis dui eget, hendrerit mattis mi. Duis non orci lobortis, vestibulum nisi auctor, suscipit tortor. Suspendisse rhoncus sapien sit amet venenatis varius. Morbi lectus metus, dictum vel ante eu, imperdiet convallis urna.</p>
                         <h4>postado dia 31/05/2022 às 18:02</h4>
                     </div>
+                    
                 </div>
+                <a href="#topo" class="eita">Voltar ao Inicio</a>
+
             </div>
         </section>
         <section class="sec-02">
             <div class="container2">
-
+                
                 <div class="content2">
                     <div class="text-box">
                         <h3>Lorem Ipsum</h3>
@@ -63,7 +78,7 @@
             <div class="container2">
 
                 <div class="content2">
-                    <div class="text-box">
+                    <div class="text-box" id="teste">
                         <h3>Lorem Ipsum</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in eros pellentesque, congue orci id, blandit velit. Morbi in luctus leo. Quisque ac felis in orci aliquam consectetur. Etiam vulputate odio ac nunc ultrices ullamcorper. Nam sollicitudin varius ipsum sit amet hendrerit. Praesent varius ante nec turpis imperdiet convallis. Fusce orci turpis, porta sed dictum a, vestibulum malesuada dolor. Phasellus lorem quam, bibendum quis dui eget, hendrerit mattis mi. Duis non orci lobortis, vestibulum nisi auctor, suscipit tortor. Suspendisse rhoncus sapien sit amet venenatis varius. Morbi lectus metus, dictum vel ante eu, imperdiet convallis urna.</p>
                     </div>
@@ -82,8 +97,8 @@
                 delay: 400
             });
 
-            ScrollReveal().reveal('.main-title, .butao',  { delay: 0 });
-            ScrollReveal().reveal('.sub-titlecringe, .sub-titlepog',  { delay: 0 });
+            ScrollReveal().reveal('.main-title, .container',  { delay: 0 });
+            ScrollReveal().reveal('.sub-titlecringe, .sub-titlepog, .eita',  { delay: 0 });
             ScrollReveal().reveal('.content .image, .content .text-box',  { delay: 0 , origin: 'left' });
             ScrollReveal().reveal('.content2 .image, .content2 .text-box',  { delay: 0 , origin: 'left' });
             

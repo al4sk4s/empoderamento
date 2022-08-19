@@ -54,7 +54,26 @@ section{
     color:#ffffff;
     font-family: "Courier New", monospace;
     font-style: italic;
-  }
+    height: 100px;
+}
+.eita{
+    font-size: 2em;
+    margin-bottom: 0px;
+    color:#ffffff;
+    font-family: "Courier New", monospace;
+    font-style: italic;
+    padding: 5px;
+}
+
+.via-lactea{
+    font-size: 2em;
+    margin-bottom: 0px;
+    color:#ffffff;
+    font-family: "Courier New", monospace;
+    font-style: italic;
+    padding: 5px;
+}
+
 .content{
     position: relative;
     width: 1150px;
