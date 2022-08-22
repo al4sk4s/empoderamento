@@ -123,10 +123,17 @@ section{
     padding: 5px;
 }
 
+.container .contentkkk{
+    padding: 10px;
+    
+    border-radius: 10px;
+}
+
 .contentkkk .image{
     position: relative;
     width: 800px ;
     height: 400px;
     overflow: hidden;
     border-radius: 10px;
+    border: 1px solid white;
 }
