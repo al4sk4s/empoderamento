@@ -122,3 +122,11 @@ section{
     font-style: italic;
     padding: 5px;
 }
+
+.contentkkk .image{
+    position: relative;
+    width: 800px ;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+}
