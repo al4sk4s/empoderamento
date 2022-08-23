@@ -122,6 +122,65 @@ section{
     font-family: "Courier New", monospace;
     font-style: italic;
     padding: 5px;
+<<<<<<< HEAD
+=======
+}
+
+.container .contentkkk{
+    padding: 10px;
+    
+    border-radius: 10px;
+}
+
+.contentkkk .text-box p{
+    padding-left: 5px;
+}
+
+.contentkkk .image{
+    position: relative;
+    width: 800px ;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.contentkkk .image2{
+    position: relative;
+    width: 800px ;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.content .redação{
+    padding-bottom: 2px;
+}
+
+.content .redação img{
+    width: 550px;
+    height: 767px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+ #ultimo{
+    padding-top: 50px;
+}
+
+.contentkkk .text-box h3{
+    font-size: 20px;
+}
+
+#busanfa{
+    font-size: 30px;
+}
+
+.contentkkk .text-box{
+    padding: 0;
+    padding-left: 10px;
+>>>>>>> 32d1ea4a98f6711694d16cdff25baf3b76dc9548
 }
 
 .container .contentkkk{
