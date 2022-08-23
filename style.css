@@ -16,7 +16,8 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 70px 90px;
+    padding: 10px 90px;
+    padding-bottom: 50px;
     color: #fff;
 }
 
@@ -54,7 +55,10 @@ section{
     color:#ffffff;
     font-family: "Courier New", monospace;
     font-style: italic;
-  }
+    height: 80px;
+}
+
+
 .content{
     position: relative;
     width: 1150px;
@@ -102,48 +106,76 @@ section{
     position: relative;
     left: 23%;
 }
-
-.content2{
-    position: relative;
-    width: 1150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.content2 .image{
-    position: relative;
-    width: 300px;
-    height: 559px;
-    overflow: hidden;
-}
-
-.content2 .image img{
-    z-index: 111;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.content2 .text-box{
-    z-index: 222;
-    background: rgba(255, 255, 255, 0);
-    backdrop-filter: blur(20px);
-    padding: 40px;
-    max-width: 400px;
-    border: 1px solid rgba(255, 255, 255, 0);
-    border-radius: 10px;
-}
-
-.content2 .text-box h3{
+.eita{
     font-size: 2em;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+    color:#ffffff;
+    font-family: "Courier New", monospace;
+    font-style: italic;
+    padding: 5px;
 }
-.content2 .text-box h4{
-    font-size: 1em;
-    margin-bottom: 10px;
+
+.Titulo{
+    font-size: 2em;
+    margin-bottom: 0px;
+    color:#ffffff;
+    font-family: "Courier New", monospace;
+    font-style: italic;
+    padding: 5px;
+}
+
+.container .contentkkk{
+    padding: 10px;
+    
+    border-radius: 10px;
+}
+
+.contentkkk .text-box p{
+    padding-left: 5px;
+}
+
+.contentkkk .image{
+    position: relative;
+    width: 800px ;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.contentkkk .image2{
+    position: relative;
+    width: 800px ;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.content .redação{
+    padding-bottom: 2px;
+}
+
+.content .redação img{
+    width: 550px;
+    height: 767px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+ #ultimo{
+    padding-top: 50px;
+}
+
+.contentkkk .text-box h3{
+    font-size: 20px;
+}
+
+#busanfa{
+    font-size: 30px;
+}
+
+.contentkkk .text-box{
+    padding: 0;
+    padding-left: 10px;
 }
